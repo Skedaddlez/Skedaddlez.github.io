@@ -1,6 +1,7 @@
 ﻿* {
     padding: 0;
     margin: 0;
+
 }
 
 html{
@@ -15,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    background: #000000;
 }
 
 header {
@@ -104,6 +106,10 @@ a.navbarlinks2 {
     width: 15%;
 }
 
+#bottoml {
+    margin-top: 30px;
+}
+
 
 footer {
     background: #000000;
@@ -113,6 +119,7 @@ footer {
 }
 
 .Site-content {
+    background: #000000;
     flex: 1;
 }
 
@@ -120,7 +127,7 @@ footer {
 
 #aboutme {
     font-family: 'Exo 2', sans-serif;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: white;
     display: block;
     background-image: url("images/AboutMeSect.jpg");
@@ -132,7 +139,7 @@ footer {
 
 #Aspirations {
     font-family: 'Exo 2', sans-serif;
-    font-size: 2vw;
+    font-size: 1vw;
     color: white;
     display: block;
     background-color: black;
@@ -153,5 +160,33 @@ footer {
 
 .basesecttex {
     padding: 10px;
-    margin: 10px;
+    margin: 10px;    
+}
+
+.remainder {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    transform: translate(40vw, 0);
+    margin: auto;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+li{
+    text-align: left;    
+}
+
+.breakl{
+    width: 50vw;
+    transform: translate(25vw,0);
+    margin: 20px;
+}
+
+.break2 {
+    width: 50vw;
+    transform: translate(25vw,0); 
+    margin: 20px;
 }
