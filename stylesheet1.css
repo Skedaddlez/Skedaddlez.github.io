@@ -1,25 +1,38 @@
-﻿body {
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    max-width: 100%;
+}
+
+body {
     font: 12px arial;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 header {
     background-image: url("images/head_bg.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
-    font-family: 'Oswald', cursive;
-    padding-left: 30px;
+    font-family: 'Montserrat', cursive;
+    padding-left: 0px;
 }
 
 
 
 img.avatar {
     width: 200px;
-    height: 200px;    
+    height: 200px;
+    padding: 10px;
     border-radius: 50%;
 }
 
@@ -28,7 +41,7 @@ img.avatar {
     color: white;
     text-shadow: 3px 3px #000000;
     padding-left: 20px;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 nav {
@@ -58,7 +71,7 @@ a.navbarlinks {
     text-transform: none;
     line-height: 50px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 40px;   
 }
 
 a.navbarlinks2 {
@@ -88,4 +101,46 @@ footer {
 
 .Site-content {
     flex: 1;
+}
+
+/* After this is the more specific classes*/
+
+#aboutme {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2vw;
+    color: white;
+    display: block;
+    background-image: url("images/AboutMeSect.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    overflow: auto;
+}
+
+#Aspirations {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2vw;
+    color: white;
+    display: block;
+    background-image: url("images/AboutMeSect.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    overflow: auto;
+}
+
+.basesectdiv {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30vw;
+    height: 30vw;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+.basesecttex {
+    padding: 10px;
+    margin: 10px;
 }
