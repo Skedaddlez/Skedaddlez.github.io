@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Oswald|Titillium + Web");
+﻿@import url("https://fonts.googleapis.com/css?family=Oswald|Titillium+Web");
 
 body {
     font: 12px arial;
@@ -48,7 +48,7 @@ nav.bottombar {
 
 
 a.navbarlinks {
-    font-family: Titillium Web, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     word-spacing: 2px;
