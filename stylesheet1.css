@@ -139,12 +139,12 @@ footer {
 
 #Aspirations {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1vw;
+    font-size: 1.3vw;
     color: white;
     display: block;
     background-color: black;
     height: auto;
-    overflow: auto;
+    width: auto;    
 }
 
 .basesectdiv {
