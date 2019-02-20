@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/Skedaddlez/stylesheet1.css">
     <link rel="stylesheet" href="stylesheet1.css">
     <title>Stephen Dudley</title>
+    
 </head>
     <body>
         <header>
@@ -29,13 +30,35 @@
                 </table>                              
             </p>
         </header>
-        <nav align="left">
-            <a class="navbarlinks" href="index.html">Home</a>
-            <a class="navbarlinks" href="Portfolio.html">Portfolio</a>
-            <a class="navbarlinks" href="Projects.html">Projects</a>
-            <a class="navbarlinks" href="Blog.html">Blog</a>            
-            <a style="float:right;" class="navbarlinks" href="Contact.html">Contact Me</a>
-        </nav>
+        <div id="navbar" align="left">
+            <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block">
+                <tr>
+                    <th class="highlink" onclick="location.href='index.html'">
+                        <a class="navbarlinks" href="index.html">Home</a>
+                    </th>
+                    <th class="highlink" onclick="location.href = 'Portfolio.html'">
+                        <a class="navbarlinks" href="Portfolio.html">Portfolio</a>
+                    </th>
+                    <th class="highlink" onclick="location.href = 'Projects.html'">
+                        <a class="navbarlinks" href="Projects.html">Projects</a>
+                    </th>
+                    <th class="highlink" onclick="location.href = 'Blog.html'">
+                        <a class="navbarlinks" href="Blog.html">Blog</a>
+                    </th>
+                    
+                </tr>
+            </table>
+            <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block;float:right;">
+                <tr>
+                    <th class="highlink" onclick="location.href = 'Contact.html'">
+                        <a style="float:right;" class="navbarlinks" href="Contact.html">Contact Me</a>
+                    </th>                    
+                </tr>
+            </table>
+            <script>
+
+            </script>
+        </div>
         <article>
             <section>
                 <div id="aboutme">
@@ -43,7 +66,7 @@
                         <h1 align="center">About Me</h1>
                         <p align="center" class="basesecttex">
                             My name is <strong>Stephen</strong>, and I am an Engineering Student at the University of Sydney.</br></br>
-                            I am majoring in the fields of <strong>Biomedical and Electrical Engineering</strong><br/>
+                            I am majoring in the fields of <strong>Biomedical and Electrical Engineering</strong><br />
                             I am hoping to gain a career involving these fields, and I am constantly looking for opportunities to grow.
                         </p>
                     </div>
@@ -52,26 +75,36 @@
             <section>
                 <div id="Aspirations">
                     <h2 align="center">What am I up to?</h2>
-                        <hr class="breakl" />
-                        <p align="center" class="basesecttex">
-                            Alongside with my formal academic teaching, I am researching and learning about electrical engineering and programming in my spare time.</br>
-                            <hr class="break2" size="1" />
-                            <div align="center"> <strong>I am currently visiting engineering projects, such as:</strong></div>                           
-                            <ul align="center" class="remainder">
-                                <li>Microcontroller-based projects (Arduino)</li>
-                                <li>3D Printing and CNC Machining</li>
-                                <li>PCB Design</li>
-                                <li>Console portabilisation (check out bitbuilt.net for more info)</li>
-                            </ul>
-                            <hr class="break2" size="1" />
-                            <div align="center"><strong>I am currently researching computer science concepts and languages, such as:</strong></div>
-                            <ul align="center" class="remainder">
-                                <li>C#</li>
-                                <li>Python 3</li>
-                                <li>HTML, CSS, Javascript <small style="font-size: 10px">(I am creating this website from scratch!)</small></li>
-                                <li>Planning to look into Node.js and SQL</li>
-                            </ul>
-                        </p>                    
+                    <hr class="breakl" />
+                    <p align="center" class="basesecttex">
+                        Alongside with my formal academic training, I am researching and learning about electrical engineering and programming in my spare time.</br>
+                        <hr class="break2" size="1" />
+                        <div align="center" style="font-size: 1.5vw"> <strong>I am currently visiting engineering projects, such as:</strong></div>
+                        <ul align="center" class="remainder">
+                            <li>Microcontroller-based projects (Arduino)</li>
+                            <li>3D Printing and CNC Machining</li>
+                            <li>PCB Design</li>
+                            <li>Console portabilisation (check out bitbuilt.net for more info)</li>
+                        </ul>
+                        <hr class="break2" size="1" />
+                        <div align="center" style="font-size: 1.5vw"><strong>I am currently researching computer science concepts and languages, such as:</strong></div>
+                        <ul align="center" class="remainder">
+                            <li>C#</li>
+                            <li>Python 3</li>
+                            <li>HTML, CSS, Javascript <small style="font-size: 10px">(I am creating this website from scratch!)</small></li>
+                            <li>Planning to look into Node.js and SQL</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div id="Goals">
+                    <h2 align="center">What am I trying to achieve?</h2>
+                </div>
+            </section>
+            <section>
+                <div id="Aspirations">
+                    <h2 align="center">How is my spare time spent?</h2>
                 </div>
             </section>
         </article>
@@ -84,8 +117,6 @@
             <a class="navbarlinks2" href="Blog.html">Blog</a>
             <a class="navbarlinks2" href="Contact.html">Contact Me</a>
         </nav>
-        <footer align="center">
-            Stephen Dudley</br><i>Biomedical/Electrical Engineering Student</i>
-        </footer>
+        <script src="js/home.js"></script>
     </body>
 </html>

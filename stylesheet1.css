@@ -54,17 +54,61 @@ img.avatar {
     font-size: 15px;
 }
 
-nav {
-    background: #000000;    
+#navbar {
+    background: #000000;
     height: 50px;
-    
+    overflow: hidden;
+    background-color: black;
+    display: block;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + #aboutme {
+    padding-top: 60px;
+}
+
 nav.bottombar {
     background: #000000;
     height: 50px;
     display: inline;
     
     text-align: center;
+}
+
+.highlink {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.highlink:hover {
+    color: black;
+    background-color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.highlink:hover a {
+    color: black;   
 }
 
 
@@ -84,10 +128,11 @@ a.navbarlinks {
     padding-right: 40px;
 }
 
-a.navbarlinks:hover {
-    font-size: 15px;
-    
+.th a {
+    display: block;
+    text-decoration: none;
 }
+
 
 a.navbarlinks2 {
     font-family: 'Titillium Web', sans-serif;
@@ -147,6 +192,16 @@ footer {
     width: auto;    
 }
 
+#Goals {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3vw;
+    color: black;
+    display: block;
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+
 .basesectdiv {
     display: block;
     margin: auto;
@@ -160,15 +215,17 @@ footer {
 
 .basesecttex {
     padding: 10px;
-    margin: 10px;    
+    margin: 10px;
+    font-size: 1.75vw;
 }
 
 .remainder {
     display: inline-block;
     height: auto;
     width: auto;
-    transform: translate(40vw, 0);
+    transform: translate(35vw, 0);
     margin: auto;
+    font-size: 1.5vw;
 }
 
 h2{
