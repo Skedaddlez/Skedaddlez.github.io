@@ -65,6 +65,7 @@ img.avatar {
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     z-index: 999;
+    vertical-align: central;
 }
 
 .sticky {
@@ -127,16 +128,21 @@ a.navbarlinks {
 }
 
 img.socials{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;   
+    
 }
 
-img.socials:hover {
-    filter: invert(100%);
-}
 
 a.navbarlinksimg {
-    
+    vertical-align: central;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    transform: translate(0,0.15vw);
+}
+
+a.navbarlinksimg:hover {
+    filter: invert(100%);
 }
 
 .th a {
@@ -259,8 +265,8 @@ footer {
 .remainder2 {
     display: inline-block;
     height: auto;
-    width: auto;
-    transform: translate(20vw, 0);
+    width: 60vw;
+    transform: translate(23vw, 0);
     margin: auto;
     font-size: 1.5vw;
 }
