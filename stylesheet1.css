@@ -194,15 +194,15 @@ footer {
 }
 
 #sparetime {
+    background-image: url("images/sparetime_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Exo 2', sans-serif;
     font-size: 1.3vw;
     color: white;
     text-shadow: 2px 2px 2px #000000;
     display: block;
-    background-image: url("images/sparetime_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     height: auto;
     width: auto;
     padding-bottom: 20px;
