@@ -64,9 +64,7 @@ img.avatar {
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    z-index: 999;
 }
 
 .sticky {
@@ -179,6 +177,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: auto;
+    padding: 5vw;
     overflow: auto;
 }
 
@@ -220,15 +219,14 @@ footer {
     padding-bottom: 10px;
 }
 
-.basesectdiv {
+#basesectdiv {
     display: block;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     width: 30vw;
-    height: 30vw;
-    background-color: rgba(0,0,0,0.5);
-    
+    height: 0;
+    padding-bottom: 30vw;
+    background-color: rgba(0,0,0,0.5);    
 }
 
 .basesecttex {
@@ -242,6 +240,14 @@ footer {
     height: auto;
     width: auto;
     transform: translate(35vw, 0);
+    margin: auto;
+    font-size: 1.5vw;
+}
+.remainder2 {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    transform: translate(20vw, 0);
     margin: auto;
     font-size: 1.5vw;
 }
