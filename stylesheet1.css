@@ -178,15 +178,13 @@ a.navbarlinks2 {
 
 footer {
     background: #000000;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: white;       
 }
 
 .Site-content {
     background: black;
-    flex: 1;
-    margin: 0px;
+    margin-bottom: 2px;
+    flex: 1;    
 }
 
 /* After this is the more specific classes*/
@@ -194,6 +192,7 @@ footer {
 #aboutme {
     font-family: 'Exo 2', sans-serif;
     font-size: 1.8vw;
+    text-shadow: 2px 2px 2px #000000;
     color: white;
     display: block;
     background-image: url("images/AboutMeSect.jpg");
@@ -201,7 +200,8 @@ footer {
     background-position: center;
     height: auto;
     padding: 5vw;
-    overflow: auto;
+    overflow: hidden;
+
 }
 
 #Aspirations {
@@ -217,7 +217,7 @@ footer {
 
 #sparetime {
     background-image: url("images/sparetime_bg.jpg");
-    background-size: cover;
+    background-size: inherit;
     background-position: center;
     background-attachment: fixed;
     font-family: 'Exo 2', sans-serif;
@@ -243,19 +243,41 @@ footer {
 }
 
 #basesectdiv {
-    display: block;
+    display: inline-block;
     margin: auto;
-    margin-bottom: 0px;
-    width: 30vw;
+    width: 50vw;
     height: 0;
     padding-bottom: 30vw;
-    background-color: rgba(0,0,0,0.5);    
+    background-color: rgba(0,0,0,0.5);
+    font-weight: normal;
+    font-size: 2.4vw;
+
 }
 
-.basesecttex {
-    padding: 10px;
-    margin: 10px;
-    font-size: 1.75vw;
+#squimg {
+    width: 30vw;
+    height: 30vw;
+    float: right;
+    transform:translate(0,-5px)
+}
+
+.basesecttex {    
+    width: 50vw;
+    margin: auto;
+    max-height: 35vw;
+    white-space: initial;
+    overflow: hidden;    
+    text-align: center;
+}
+
+.fixedtext {
+    width: 100vw;
+    margin: auto;
+    max-height: 35vw;
+    white-space: initial;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
 }
 
 .remainder {
@@ -264,7 +286,7 @@ footer {
     width: 60vw;
     transform: translate(35vw, 0);
     margin: auto;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 .remainder2 {
     display: inline-block;
@@ -272,11 +294,12 @@ footer {
     width: 60vw;
     transform: translate(23vw, 0);
     margin: auto;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 
 h2{
     padding-top: 10px;
+    font-size: 3vw;
 }
 
 li{
