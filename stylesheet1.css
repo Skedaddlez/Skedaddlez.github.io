@@ -9,7 +9,9 @@ html{
 }
 
 body {
-    font: 12px arial;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.8vw;
+    color: white;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -66,6 +68,7 @@ img.avatar {
     transition: all 1s ease-in-out;
     z-index: 999;
     vertical-align: central;
+    font-size: 12px;
 }
 
 .sticky {
@@ -169,7 +172,7 @@ a.navbarlinks2 {
 }
 
 #bottoml {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 
@@ -181,8 +184,9 @@ footer {
 }
 
 .Site-content {
-    background: white;
+    background: black;
     flex: 1;
+    margin: 0px;
 }
 
 /* After this is the more specific classes*/
@@ -257,7 +261,7 @@ footer {
 .remainder {
     display: inline-block;
     height: auto;
-    width: auto;
+    width: 60vw;
     transform: translate(35vw, 0);
     margin: auto;
     font-size: 1.5vw;
@@ -289,4 +293,11 @@ li{
     width: 50vw;
     transform: translate(25vw,0); 
     margin: 20px;
+}
+
+#contact{
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-top: 1vw;
 }
