@@ -164,7 +164,7 @@ footer {
 }
 
 .Site-content {
-    background: #000000;
+    background: white;
     flex: 1;
 }
 
@@ -189,17 +189,35 @@ footer {
     display: block;
     background-color: black;
     height: auto;
-    width: auto;    
+    width: auto;
+    padding-bottom: 20px;
 }
+
+#sparetime {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    display: block;
+    background-image: url("images/sparetime_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+}
+
 
 #Goals {
     font-family: 'Exo 2', sans-serif;
     font-size: 1.3vw;
-    color: black;
+    color: white;
     display: block;
-    background-color: white;
+    background-color: black;
     height: auto;
     width: auto;
+    padding-bottom: 10px;
 }
 
 .basesectdiv {
