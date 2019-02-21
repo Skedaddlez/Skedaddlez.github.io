@@ -126,6 +126,19 @@ a.navbarlinks {
     padding-right: 40px;
 }
 
+img.socials{
+    height: 50px;
+    width: 50px;
+}
+
+img.socials:hover {
+    filter: invert(100%);
+}
+
+a.navbarlinksimg {
+    
+}
+
 .th a {
     display: block;
     text-decoration: none;
