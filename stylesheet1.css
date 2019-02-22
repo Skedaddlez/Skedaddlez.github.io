@@ -196,8 +196,8 @@ footer {
     display: block;
     background-color: white;
     background-image: url("images/wrapper1.jpg");
-    background-attachment: local;
-    background-size: cover;
+    
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: fixed;
     height: auto;
