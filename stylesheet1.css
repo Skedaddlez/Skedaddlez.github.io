@@ -199,6 +199,7 @@ footer {
     
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     background-position-x: fixed;
     height: auto;
     margin: auto;
