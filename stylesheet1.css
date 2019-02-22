@@ -196,9 +196,10 @@ footer {
     display: block;
     background-color: white;
     background-image: url("images/wrapper1.jpg");
+    background-attachment: local;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;    
     height: auto;
     margin: auto;
     overflow: hidden;
@@ -258,7 +259,8 @@ footer {
     margin: 3vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    max-width: 75%;
+    margin-right: 25%;
+    max-width: 57%;
 }
 
 
