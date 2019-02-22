@@ -191,15 +191,14 @@ footer {
 
 #aboutme {
     font-family: 'Exo 2', sans-serif;
-    font-size: 30px;
-    
-    color: transparent;
+    font-size: 30px;    
+    color: black;
     display: block;
     background-color: white;
-    background-image: url("images/AboutMeSect.jpg");
+    background-image: url("images/wrapper2.jpg");
     background-size: cover;
     background-position: center;
-    max-height: 10vw;
+    height: 30vw;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -207,22 +206,6 @@ footer {
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-}
-#aboutme h2 {
-    
-    color: white;
-    
-}
-
-#aboutme:HOVER {
-    max-height: 30vw;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-    color: white;
-    text-shadow: 2px 2px 2px #000000;
-
 }
 
 #Aspirations {
@@ -260,13 +243,8 @@ footer {
     height: auto;     
 }
 
-#basesectdiv {
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    left: 0%;
-    width: 75%;
-    background-color: rgba(0,0,0,0.5);
+#basesectdiv {    
+    margin: 30px;    
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -284,9 +262,10 @@ footer {
 }
 
 .basesecttex {
-    display: flex;
+    display: inline-block;
     font-size: 2vw;
-    margin: 10px;
+    padding: 30px;
+    margin-left: 20vw;
     line-height: 2.5vw;    
     overflow-x: hidden;
 }
