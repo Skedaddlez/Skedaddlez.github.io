@@ -199,8 +199,7 @@ footer {
     
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: fixed;
+    background-position: center;   
     height: auto;
     margin: auto;
     overflow: hidden;
@@ -223,9 +222,10 @@ footer {
 #Aspirations {
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
+    text-shadow: 3px 3px 1px #000000;
     color: white;
     display: block;
-    background-color: #280000;
+    background-color: #28041B;
     height: auto;
     width: auto;
     padding-bottom: 20px;
@@ -239,7 +239,7 @@ footer {
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
     color: white;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 3px 3px 2px #000000;
     display: block;
     height: auto;
     width: auto;
