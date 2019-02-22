@@ -190,18 +190,28 @@ footer {
 /* After this is the more specific classes*/
 
 #aboutme {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;    
     color: black;
     display: block;
     background-color: white;
-    background-image: url("images/wrapper2.jpg");
+    background-image: url("images/wrapper1.jpg");
     background-size: cover;
-    background-position: center;
-    height: 30vw;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: auto;
     margin: auto;
     overflow: hidden;
     position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+#aboutme:hover {    
+    background-color: white;
+    background-image: url("images/wrapper2.jpg");    
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -213,7 +223,7 @@ footer {
     font-size: 30px;
     color: white;
     display: block;
-    background-color: black;
+    background-color: #280000;
     height: auto;
     width: auto;
     padding-bottom: 20px;
@@ -243,32 +253,17 @@ footer {
     height: auto;     
 }
 
-#basesectdiv {    
-    margin: 30px;    
-    padding-top: 2%;
-    padding-bottom: 2%;
+#basesectdiv {
+    font-family: 'Lato', sans-serif;
+    margin: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    max-width: 75%;
 }
 
 
-#squimg {
-    display: inline-block;       
-    margin: auto;
-    float: right;
-    width: auto;
-    max-width: 25%;
-    z-index: 995;
-    height: 25%;
-    transform:translate(0,3px)
-}
 
-.basesecttex {
-    display: inline-block;
-    font-size: 2vw;
-    padding: 30px;
-    margin-left: 20vw;
-    line-height: 2.5vw;    
-    overflow-x: hidden;
-}
+
 
 .fixedtext {
     width: 100vw;
