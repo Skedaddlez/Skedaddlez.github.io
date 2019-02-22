@@ -280,7 +280,7 @@ footer {
 .remainder {
     display: table;
     height: auto;
-    max-width: 100%;
+    max-width: 60%;
     margin: auto;
     font-size: 30px;
     padding-left: 10%;
