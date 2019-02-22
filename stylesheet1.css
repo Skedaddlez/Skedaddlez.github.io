@@ -228,7 +228,8 @@ footer {
     background-color: #28041B;
     height: auto;
     width: auto;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 #sparetime {
@@ -243,16 +244,19 @@ footer {
     display: block;
     height: auto;
     width: auto;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 
 #Goals {
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
-    color: white;    
+    color: white;
     background-color: black;
-    height: auto;     
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 #basesectdiv {
@@ -283,13 +287,12 @@ footer {
     height: auto;
     max-width: 60%;
     margin: auto;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-h2{
-    padding-top: 10px;
+h2{    
     font-size: 50px;
 }
 
@@ -301,7 +304,7 @@ li{
     width: 1000px;    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -309,7 +312,7 @@ li{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
