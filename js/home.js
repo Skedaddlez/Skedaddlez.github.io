@@ -3,6 +3,7 @@
 window.onscroll = function () { myFunction() };
 
 
+
 // Get the navbar
 var navbar = document.getElementById("navbar");
 
@@ -19,4 +20,3 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
-

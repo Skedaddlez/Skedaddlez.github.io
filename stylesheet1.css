@@ -1,7 +1,7 @@
 ﻿* {
     padding: 0;
     margin: 0;
-
+    max-width: 100%;
 }
 
 html{
@@ -10,7 +10,7 @@ html{
 
 body {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.8vw;
+    font-size: 30px;
     color: white;
     display: flex;
     min-height: 100vh;
@@ -36,7 +36,7 @@ header {
 
 img.avatar {
     width: 200px;
-    height: 200px;
+    height: auto;
     padding: 10px;
     border-radius: 50%;
 }
@@ -141,7 +141,7 @@ a.navbarlinksimg {
     vertical-align: central;
     padding-left: 1vw;
     padding-right: 1vw;
-    transform: translate(0,0.15vw);
+    transform: translate(0,2px);
 }
 
 a.navbarlinksimg:hover {
@@ -191,22 +191,43 @@ footer {
 
 #aboutme {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.8vw;
-    text-shadow: 2px 2px 2px #000000;
-    color: white;
+    font-size: 30px;
+    
+    color: transparent;
     display: block;
+    background-color: white;
     background-image: url("images/AboutMeSect.jpg");
     background-size: cover;
     background-position: center;
-    height: auto;
-    padding: 5vw;
+    max-height: 10vw;
+    margin: auto;
     overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+#aboutme h2 {
+    
+    color: white;
+    
+}
+
+#aboutme:HOVER {
+    max-height: 30vw;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
 
 }
 
 #Aspirations {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.3vw;
+    font-size: 30px;
     color: white;
     display: block;
     background-color: black;
@@ -221,7 +242,7 @@ footer {
     background-position: center;
     background-attachment: fixed;
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.3vw;
+    font-size: 30px;
     color: white;
     text-shadow: 2px 2px 2px #000000;
     display: block;
@@ -233,41 +254,41 @@ footer {
 
 #Goals {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.3vw;
-    color: white;
-    display: block;
+    font-size: 30px;
+    color: white;    
     background-color: black;
-    height: auto;
-    width: auto;
-    padding-bottom: 10px;
+    height: auto;     
 }
 
 #basesectdiv {
-    display: inline-block;
-    margin: auto;
-    width: 50vw;
-    height: 0;
-    padding-bottom: 30vw;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0%;
+    width: 75%;
     background-color: rgba(0,0,0,0.5);
-    font-weight: normal;
-    font-size: 2.45vw;
-
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
 
 #squimg {
-    width: 30vw;
-    height: 30vw;
+    display: inline-block;       
+    margin: auto;
     float: right;
-    transform:translate(0,-5px)
+    width: auto;
+    max-width: 25%;
+    z-index: 995;
+    height: 25%;
+    transform:translate(0,3px)
 }
 
-.basesecttex {    
-    width: 50vw;
-    margin: auto;
-    max-height: 35vw;
-    white-space: initial;
-    overflow: hidden;    
-    text-align: center;
+.basesecttex {
+    display: flex;
+    font-size: 2vw;
+    margin: 10px;
+    line-height: 2.5vw;    
+    overflow-x: hidden;
 }
 
 .fixedtext {
@@ -283,18 +304,11 @@ footer {
 .remainder {
     display: table;
     height: auto;
-    
-    
+    max-width: 100%;
     margin: auto;
     font-size: 30px;
-}
-.remainder2 {
-    display: inline-block;
-    height: auto;
-    width: 60vw;
-    transform: translate(23vw, 0);
-    margin: auto;
-    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 h2{
@@ -307,15 +321,19 @@ li{
 }
 
 .breakl{
-    width: 50vw;
-    transform: translate(25vw,0);
-    margin: 20px;
+    width: 1000px;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .break2 {
-    width: 50vw;
-    transform: translate(25vw,0); 
-    margin: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #contact{
