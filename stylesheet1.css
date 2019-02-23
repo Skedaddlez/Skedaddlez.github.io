@@ -210,6 +210,40 @@ footer {
     transition: all 0.3s ease-in;
 }
 
+.blogpost {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: black;
+    display: block;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    z-index: -2;
+}
+
+.blogpost:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 25%, transparent 100%);
+    background: -webkit-linear-gradient(left, #000000 25%, transparent 100%);
+    background: linear-gradient(to right, #000000 25%, transparent 100%);
+    z-index: -1;
+}
+
 #aboutme:hover {    
     background-color: white;
     background-image: url("images/wrapper2.jpg");    
@@ -268,9 +302,16 @@ footer {
     max-width: 57%;
 }
 
-
-
-
+.blogtext {
+    font-family: 'Lato', sans-serif;
+    margin: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-right: 25%;
+    max-width: 57%;
+    z-index: 99;
+    color: white;
+}
 
 .fixedtext {
     width: 100vw;
