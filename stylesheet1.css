@@ -249,7 +249,7 @@ footer {
     font-size: 30px;
     color: black;
     display: block;
-    background-color: black;
+    background: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -261,8 +261,9 @@ footer {
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    z-index: -2;
+    z-index: 0;
 }
+
 
 .projectpost:before {
     content: '';
@@ -276,6 +277,23 @@ footer {
     background: -webkit-linear-gradient(left, #FFFFFF 25%, transparent 100%);
     background: linear-gradient(to right, #FFFFFF 25%, transparent 100%);
     z-index: -1;
+}
+
+.projectpost:hover:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(left, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
+    background: -webkit-linear-gradient(left, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
+    background: linear-gradient(to right, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #aboutme:hover {    
