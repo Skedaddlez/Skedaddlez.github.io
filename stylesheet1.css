@@ -238,9 +238,9 @@ footer {
     bottom: 0;
     left: 0;
     background: #000000;
-    background: -moz-linear-gradient(left, #000000 25%, transparent 100%);
-    background: -webkit-linear-gradient(left, #000000 25%, transparent 100%);
-    background: linear-gradient(to right, #000000 25%, transparent 100%);
+    background: -moz-linear-gradient(left, #000000 50%, transparent 100%);
+    background: -webkit-linear-gradient(left, #000000 50%, transparent 100%);
+    background: linear-gradient(to right, #000000 50%, transparent 100%);
     z-index: -1;
 }
 
@@ -273,9 +273,9 @@ footer {
     bottom: 0;
     left: 0;
     background: #FFFFFF;
-    background: -moz-linear-gradient(left, #FFFFFF 25%, transparent 100%);
-    background: -webkit-linear-gradient(left, #FFFFFF 25%, transparent 100%);
-    background: linear-gradient(to right, #FFFFFF 25%, transparent 100%);
+    background: -moz-linear-gradient(left, #FFFFFF 50%, transparent 100%);
+    background: -webkit-linear-gradient(left, #FFFFFF 50%, transparent 100%);
+    background: linear-gradient(to right, #FFFFFF 50%, transparent 100%);
     z-index: -1;
 }
 
@@ -286,9 +286,9 @@ footer {
     bottom: 0;
     left: 0;
     background: #FFFFFF;
-    background: -moz-linear-gradient(left, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
-    background: -webkit-linear-gradient(left, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
-    background: linear-gradient(to right, #FFFFFF 25%, rgba(255,255,255,0.40) 100%);
+    background: -moz-linear-gradient(left, #FFFFFF 50%, rgba(255,255,255,0.40) 100%);
+    background: -webkit-linear-gradient(left, #FFFFFF 50%, rgba(255,255,255,0.40) 100%);
+    background: linear-gradient(to right, #FFFFFF 50%, rgba(255,255,255,0.40) 100%);
     z-index: -1;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
