@@ -8,7 +8,9 @@ html{
     max-width: 100%;
 }
 
-
+h3{
+    font-size: 30px;
+}
 
 body {
     font-family: 'Exo 2', sans-serif;
@@ -450,11 +452,8 @@ li{
 }
 
 .projbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: block;
+    float: left;
     margin: auto;
     width: 200px;
     height: 200px;
@@ -463,6 +462,15 @@ li{
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.projbox h3 {
+    height: inherit;
+    width: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: no-content;
 }
 
 .projbox:hover {    
@@ -481,7 +489,7 @@ li{
     height: 0px;
     z-index: 2;
     overflow: hidden;
-    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7);
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.9);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
