@@ -7,100 +7,134 @@
     <title>Stephen Dudley</title>
     <link rel="icon" href="images/headshot.jpg">
 </head>
-    <body style="background: white;">        
-        <div id="navbar" align="left">
-            <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block">
+<body style="background: white;">
+    <div id="navbar" align="left">
+        <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block">
+            <tr>
+                <th class="highlink">
+                    <a class="navbarlinks" href="index.html">Home</a>
+                </th>
+                <th class="highlink">
+                    <a class="navbarlinks" href="Projects.html">Projects</a>
+                </th>
+                <th class="highlink">
+                    <a class="navbarlinks" href="Blog.html">Blog</a>
+                </th>
+                <th class="highlink">
+                    <a class="navbarlinks" href="images/resume.pdf" target="_blank">Resume</a>
+                </th>
+            </tr>
+        </table>
+        <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block;float:right;">
+            <tr>
+                <th class="highlink" style="padding-bottom: 4px">
+                    <a style="float:right;" class="navbarlinksimg" href="https://github.com/Skedaddlez" target="_blank">
+                        <img class="socials" src="images/socials/Github.png" />
+                    </a>
+                </th>
+                <th class="highlink">
+                    <a style="float:right;" class="navbarlinksimg" href="https://www.youtube.com/channel/UCmk6rg2f_SkRxIH0CcFT-Bw" target="_blank">
+                        <img class="socials" src="images/socials/Youtube.png" />
+                    </a>
+                </th>
+                <th class="highlink">
+                    <a style="float:right;" class="navbarlinksimg" href="https://twitter.com/skedadz" target="_blank">
+                        <img class="socials" src="images/socials/Twitter.png" />
+                    </a>
+                </th>
+                <th class="highlink">
+                    <a style="float:right;" class="navbarlinksimg" href="https://www.linkedin.com/in/stephen-dudley-eng-101/ " target="_blank">
+                        <img class="socials" src="images/socials/LinkedIn.png" />
+                    </a>
+                </th>
+                <th class="highlink" onclick="location.href = 'Contact.html'">
+                    <a style="float:right;" class="navbarlinks" href="Contact.html">Contact Me</a>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <article>        
+        <div id="activeproject">
+            <div style="display: table-cell;vertical-align:middle;">
+                <a id="activeprojectlink">
+                    <p id="activeprojecttext">
+
+                    </p>
+                </a>                
+            </div>            
+        </div>
+        <section id="margined">
+            <table style="margin:auto; width: 100%">
                 <tr>
-                    <th class="highlink">
-                        <a class="navbarlinks" href="index.html">Home</a>
+                    <th>
+                        <h2 style="color: black;">
+                            Personal
+                        </h2>
                     </th>
-                    <th class="highlink">
-                        <a class="navbarlinks" href="Projects.html">Projects</a>
+                    <th>
+                        <h2 style="color: black;">
+                            Professional
+                        </h2>
                     </th>
-                    <th class="highlink">
-                        <a class="navbarlinks" href="Blog.html">Blog</a>
+                </tr>
+                <tr>
+                    <th style="margin: auto">
+                        <!-- PeH -->
+                        <div class="projbox" id="Headingbox" onclick="projclick('Heading', 'Headingbox')" style="background-image: url(images/projects/IMG_0360.jpg);">
+                            <h3>Heading</h3>
+                            <p id="Heading" style="display: none;">
+                                <a style="text-decoration:none;font-size: 50px;color: white;text-shadow: 3px 3px #000000;" target="_blank" href="">
+                                    <strong>Heading</strong>
+                                </a>
+                                 <br>
+                                text
+                            </p>                            
+                        </div>
+                        <div class="projbox" id="projbox1" onclick="projclick('project1', 'projbox1')" style="background-image: url(images/projects/Capture2.PNG);">
+                            <h3>LectureShot (Python 3)</h3>
+                            <p id="project1" style="display: none;">
+                                <a style="text-decoration:none;font-size: 50px;color: white;text-shadow: 3px 3px #000000;" target="_blank" href="https://github.com/Skedaddlez/LectureShot">
+                                    <strong>LectureShot (Python 3)</strong>
+                                </a>
+                                 <br>
+                                In preparation for my venture into the University of Sydney, I wrote a program that could skim videos (specifically, lectures) for slides - in the event the slides were not available.<br><br>
+
+                                Basically, the script takes a screenshot, then waits 5 seconds. It then takes another screenshot, and compares it to the last saved screenshot. If the similarity is too high, the image is not saved. If the similarity is low enough, the screenshot is saved and used as the new baseline.<br><br>
+
+                                Simple, but effective.
+                            </p>                            
+                        </div>
                     </th>
-                    <th class="highlink">
-                        <a class="navbarlinks" href="images/resume.pdf" target="_blank">Resume</a>
+                    <th>
+                        <!-- PrH -->
+                        <div class="projbox">
+                            <h3>Soon!</h3>
+                            <p id="project1" style="display: none;">
+                                <strong>LectureShot (Python 3)</strong> <br>
+                                In preparation for my venture into the University of Sydney, I wrote a program that could skim videos (specifically, lectures) for slides - in the event the slides were not available.<br><br>
+
+                                Basically, the script takes a screenshot, then waits 5 seconds. It then takes another screenshot, and compares it to the last saved screenshot. If the similarity is too high, the image is not saved. If the similarity is low enough, the screenshot is saved and used as the new baseline.<br><br>
+
+                                Simple, but effective.
+                            </p>
+                        </div>
                     </th>
                 </tr>
             </table>
-            <table style="padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;display: inline-block;float:right;">
-                <tr>
-                    <th class="highlink" style="padding-bottom: 4px">
-                        <a style="float:right;" class="navbarlinksimg" href="https://github.com/Skedaddlez" target="_blank">
-                            <img class="socials" src="images/socials/Github.png" />
-                        </a>
-                    </th>
-                    <th class="highlink">
-                        <a style="float:right;" class="navbarlinksimg" href="https://www.youtube.com/channel/UCmk6rg2f_SkRxIH0CcFT-Bw" target="_blank">
-                            <img class="socials" src="images/socials/Youtube.png" />
-                        </a>
-                    </th>
-                    <th class="highlink">
-                        <a style="float:right;" class="navbarlinksimg" href="https://twitter.com/skedadz" target="_blank">
-                            <img class="socials" src="images/socials/Twitter.png" />
-                        </a>
-                    </th>
-                    <th class="highlink">
-                        <a style="float:right;" class="navbarlinksimg" href="https://www.linkedin.com/in/stephen-dudley-eng-101/ " target="_blank">
-                            <img class="socials" src="images/socials/LinkedIn.png" />
-                        </a>
-                    </th>
-                    <th class="highlink" onclick="location.href = 'Contact.html'">
-                        <a style="float:right;" class="navbarlinks" href="Contact.html">Contact Me</a>
-                    </th>
-                </tr>
-            </table>            
-        </div>
-        <article>
-            				<!-- PH -->		
-		<section>
-            <a href="https://github.com/Skedaddlez/LectureShot" style="text-decoration: none;" target="_blank">
-                <div class="projectpost" style="background-image: url(images/projects/Capture2.PNG);">
-                    <div class="projecttext">
-                        <p align="left">
-							<p align="left" style=""><small><b>Personal</b></small></p>
-                            <h2 align="left" style="">LectureShot (Python 3)</h2>
-                            <hr class="breakl" style="margin-left: 10px; margin-top: 0.5vw; margin-bottom: 1vw; width: 60%" />
-                            In preparation for my venture into the University of Sydney, I wrote a program that could skim videos (specifically, lectures) for slides - in the event the slides were not available.<br><br>
-
-Basically, the script takes a screenshot, then waits 5 seconds. It then takes another screenshot, and compares it to the last saved screenshot. If the similarity is too high, the image is not saved. If the similarity is low enough, the screenshot is saved and used as the new baseline.<br><br>
-
-Simple, but effective.
-                        </p>
-                    </div>
-                </div>
-            </a>
-		</section>					
-		<section>
-            <a href="https://github.com/Skedaddlez/monster-generator" style="text-decoration: none;"target="_blank">
-                <div class="projectpost" style="background-image: url(images/projects/Capture.PNG);">
-                    
-                    <div class="projecttext">
-                        <p align="left">
-                            <p align="left" style=""><small><b>Personal</b></small></p>
-                            <h2 align="left" style="">5th Edition D&D Monster Generator (C#)</h2>
-                            <hr class="breakl" style="margin-left: 10px; margin-top: 0.5vw; margin-bottom: 1vw; width: 60%" />
-                            This was my first real coding project and the one that hooked me.<br><br>
-                            The code is total spaghetti, but I am proud of what I created.<br><br>
-                            The generator has the ability to produce a monster for Dungeons and Dragons based on as little information as you feed it. The idea is that the monster has a balanced stat total, based on a standard curve - this stat total is then divided as stated by the user. As such, the generated monster should be relatively safe for in-game use.<br><br>
-                            This project involved basic to moderate mathematics, programmatic file reading/writing, Windows Forms design and basic HTML.
-                        </p>
-                    </div>
-                </div>
-            </a>
-		</section>							    						
-        </article>
-        <main class="Site-content" style="background: white;"></main>
-        <hr id="bottoml"/>
-        <nav class="bottombar" align="left">
-            <a class="navbarlinks2" href="index.html">Home</a>
-            <a class="navbarlinks2" href="Portfolio.html">Portfolio</a>
-            <a class="navbarlinks2" href="Projects.html">Projects</a>
-            <a class="navbarlinks2" href="Blog.html">Blog</a>
-            <a class="navbarlinks2" href="Contact.html">Contact Me</a>
-        </nav>
-        <script src="js/home.js"></script>
-    </body>
+                      
+        </section>
+    </article>
+    <main class="Site-content" style="background: white;"></main>
+    <hr id="bottoml" />
+    <nav class="bottombar" align="left">
+        <a class="navbarlinks2" href="index.html">Home</a>
+        <a class="navbarlinks2" href="Portfolio.html">Portfolio</a>
+        <a class="navbarlinks2" href="Projects.html">Projects</a>
+        <a class="navbarlinks2" href="Blog.html">Blog</a>
+        <a class="navbarlinks2" href="Contact.html">Contact Me</a>
+    </nav>
+    <script src="js/home.js"></script>
+    <script src="js/other.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
 </html>
