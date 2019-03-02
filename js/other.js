@@ -5,7 +5,7 @@ function projclick(x,y) {
     var activept = document.getElementById("activeprojecttext")
     var activelk = document.getElementById("activeprojectlink")    
     
-    activep.style.height = "400px";
+    activep.style.maxHeight = "1000px";
     activep.style.padding = "2%";    
     activept.innerHTML = document.getElementById(x).innerHTML;
     activep.style.backgroundImage = document.getElementById(y).style.backgroundImage;  
