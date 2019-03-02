@@ -484,7 +484,7 @@ li{
 }
 
 #activeproject {
-    display: flex;    
+    display: flex;
     margin: 2vw;
     padding: 0px;
     width: 92%;
@@ -503,6 +503,7 @@ li{
     transition: all 0.3s ease-in-out;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #activeprojecttext {
