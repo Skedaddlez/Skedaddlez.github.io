@@ -119,6 +119,7 @@ nav.bottombar {
 
 
 a.navbarlinks {
+    display: inline-block;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
@@ -131,11 +132,11 @@ a.navbarlinks {
     text-transform: none;
     line-height: 50px;
     padding-left: 2vw;
-    padding-right: 2vw;
+    padding-right: 2vw;    
 }
 
 img.socials{
-    height: 40px;
+    height: 40%;
     width: 40px;   
     
 }
