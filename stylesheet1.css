@@ -456,6 +456,8 @@ li{
     display: inline-block;
     vertical-align: top;
     margin: auto;
+    margin-bottom: 5px;
+    background-size: cover;
     width: 200px;
     height: 200px;
     text-shadow: 2px 2px #000000;
@@ -486,6 +488,7 @@ li{
 
 #activeproject {
     display: flex;
+    background-size:cover;
     margin: 2vw;
     padding: 0px;
     width: 92%;
