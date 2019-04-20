@@ -324,8 +324,9 @@ footer {
     border-bottom-width: thick;
 }
 
-.bullets{
-    padding-left: 20%;
+.bullets {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .Title {
@@ -346,6 +347,8 @@ footer {
     color: white;
     height: auto;
     padding: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 
