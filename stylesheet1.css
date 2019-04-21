@@ -31,7 +31,7 @@ header {
     background-size: cover;
     background-position: bottom;
     width: 100%;
-    height: 100%;
+    height: 200px;
     font-family: 'Montserrat', cursive;
     padding-left: 0px;
 }
@@ -46,18 +46,32 @@ img.avatar {
 }
 
 .titlename {
-    text-align: left;
+    padding-top:35px;
+    text-align: center;
     color: white;
     text-shadow: 3px 3px #000000;
     padding-left: 20px;
     font-size: 80px;
 }
+
+@media screen and (max-device-width: 1000px) {
+    .titlename {
+        font-size: 10vw;
+    }
+}
+
 .subtitle {
-    text-align: left;
+    text-align: center;
     color: white;
     text-shadow: 3px 3px #000000;
     padding-left: 20px;
     font-size: 15px;
+}
+
+@media screen and (max-device-width: 1000px) {
+    .subtitle {
+        font-size: 3vw;
+    }
 }
 
 #navbar {
@@ -73,6 +87,12 @@ img.avatar {
     z-index: 999;
     vertical-align: central;
     font-size: 12px;
+}
+
+@media screen and (max-device-width: 1000px) {
+    #navbar {
+        height: 70px;
+    }
 }
 
 .sticky {
@@ -135,6 +155,13 @@ a.navbarlinks {
     padding-right: 2vw;    
 }
 
+@media screen and (max-device-width: 1000px) {
+    a.navbarlinks {
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
 img.socials{
     height: 40%;
     width: 40px;   
@@ -147,6 +174,13 @@ a.navbarlinksimg {
     padding-left: 1vw;
     padding-right: 1vw;
     transform: translate(0,2px);
+}
+
+@media screen and (max-device-width: 1000px) {
+    img.socials {
+        height: 40%;
+        width: 40px;
+    }
 }
 
 a.navbarlinksimg:hover {
@@ -327,6 +361,11 @@ footer {
 .bullets {
     padding-left: 10%;
     padding-right: 10%;
+    
+}
+
+.bullets li {
+  padding-bottom: 2vw;
 }
 
 .Title {
@@ -347,10 +386,19 @@ footer {
     color: white;
     height: auto;
     padding: 30px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.Aspirations div {
+    padding-bottom: 2vw;
+}
+
+@media screen and (max-device-width: 1000px) {
+    .Aspirations {
+        font-size: 2vw;
+    }
+}
 
 #sparetime {
     background-image: url("images/sparetime_bg.jpg");
