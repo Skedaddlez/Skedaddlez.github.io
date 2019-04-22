@@ -274,6 +274,12 @@ footer {
         background-size: contain;
         background-position: bottom;
     }
+
+    #aboutme:hover {
+        background-color: #FFFFFF;
+        background-size: contain;
+        background-position: bottom;
+    }
 }
 
 .blogpost {
@@ -364,9 +370,9 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
-#aboutme:hover {    
+#aboutme:hover {
     background-color: white;
-    background-image: url("images/wrapper2.jpg");    
+    background-image: url("images/wrapper2.jpg"), linear-gradient(to right, #FFFFFF 64%, #B2BA94 100%);
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
