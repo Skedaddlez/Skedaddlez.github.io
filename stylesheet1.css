@@ -254,7 +254,7 @@ footer {
     color: black;
     display: block;
     background-color: white;
-    background-image: url("images/wrapper1.jpg"), linear-gradient(to right, #FFFFFF 62%, #BCC9BF 100%);
+    background-image: url("images/wrapper1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -271,12 +271,14 @@ footer {
 @media screen and (max-device-width: 1000px) {
     #aboutme {
         background-color: #FFFFFF;
+        background-image: url("images/wrapper1.jpg"), linear-gradient(to right, #FFFFFF 62%, #BCC9BF 100%);
         background-size: contain;
         background-position: bottom;
     }
 
     #aboutme:hover {
         background-color: #FFFFFF;
+        background-image: url("images/wrapper2.jpg"), linear-gradient(to right, #FFFFFF 64%, #B2BA94 100%);
         background-size: contain;
         background-position: bottom;
     }
@@ -372,7 +374,7 @@ footer {
 
 #aboutme:hover {
     background-color: white;
-    background-image: url("images/wrapper2.jpg"), linear-gradient(to right, #FFFFFF 64%, #B2BA94 100%);
+    background-image: url("images/wrapper2.jpg");
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
