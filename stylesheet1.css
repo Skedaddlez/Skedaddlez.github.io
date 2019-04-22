@@ -312,9 +312,9 @@ footer {
     bottom: 0;
     left: 0;
     background: #000000;
-    background: -moz-linear-gradient(left, #000000 50%, transparent 100%);
-    background: -webkit-linear-gradient(left, #000000 50%, transparent 100%);
-    background: linear-gradient(to right, #000000 50%, transparent 100%);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.96) 60%, transparent 120%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.96) 60%, transparent 120%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.96) 60%, transparent 120%);
     z-index: -1;
 }
 
@@ -474,7 +474,7 @@ footer {
     margin-top: 5vw;
     margin-bottom: 5vw;
     margin-right: 25%;
-    max-width: 57%;
+    max-width: 60%;
     z-index: 99;
     color: white;
 }
