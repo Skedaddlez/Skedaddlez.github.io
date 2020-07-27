@@ -10,7 +10,7 @@ function blogclick(x, y, z) {
     var activelk2 = document.getElementById(z)
     var link = activelk2.getAttribute("href");    
 
-    activep.style.maxHeight = "1000px";
+    activep.style.maxHeight = "800px";
     activep.style.padding = "2%";
     activept.innerHTML = document.getElementById(x).innerHTML;
     activep.style.backgroundImage = document.getElementById(y).style.backgroundImage;  
