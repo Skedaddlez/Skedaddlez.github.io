@@ -57,8 +57,9 @@ img.avatar {
 .quali {
     color: white;
     text-shadow: 3px 3px #000000;
-    padding-left: 20px;
     font-size: 20px;
+    text-align: center;
+    width: 100%;
     padding-bottom: 15px;
     font-family: 'Lato', cursive;
 }
