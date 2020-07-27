@@ -1,8 +1,9 @@
 // JavaScript source code
 
-function projclick(x, y, z) {
+function blogclick(x, y, z) {
     window.scrollTo(0, 0);
-    var activep = document.getElementById("activeproject")
+    window.scrollTo(0, 0);
+    var activep = document.getElementById("activeblog")
     var activept = document.getElementById("activeprojecttext")
     var activelk = document.getElementById("activeprojectlink")
 
@@ -11,8 +12,6 @@ function projclick(x, y, z) {
 
     activep.style.maxHeight = "1000px";
     activep.style.padding = "2%";
-    activep.setAttribute("onclick", "window.open('" + link +"')");
-    activep.setAttribute("target", "_blank");
     activept.innerHTML = document.getElementById(x).innerHTML;
     activep.style.backgroundImage = document.getElementById(y).style.backgroundImage;  
       
